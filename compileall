@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gcc -o build dmaynard.buildrooms.c   
+gcc -pthread -o adv dmaynard.adventure.c
+./build
+./adv
