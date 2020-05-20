@@ -1,0 +1,10 @@
+An adventure game written in C code. To compile 
+
+Run ./compileall
+
+This program (buildrooms) will randomly create 7 rooms, in a buildrooms.pid
+folder. It will make sure each room has at least 6 or less
+
+The adventure program will first print out the starting room (depending which is randomly created)
+in the build rooms folder. It will then take the correct patch depending on user input until the
+END room is found. Utilizes lpthreads and process ID's.
